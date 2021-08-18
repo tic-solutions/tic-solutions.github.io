@@ -1,1 +1,0 @@
-# tic-solutions.github.io
