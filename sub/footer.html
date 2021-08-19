@@ -1,0 +1,78 @@
+﻿<div style="background: rgb(222,222,222); background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 100%); width:100%; height:auto; padding-bottom:2%; margin-top:3%;">
+<img src="graf/Panorama.png" width="100%" style="box-shadow: 5px 5px 5px #000; border-top:1px solid #111;"/>
+<div style=" position:relative; width:360px; left:50%; margin-left:-180px; height:250px;">
+<div class="tooltipo8" style="float:left; height:90%;">
+<a href="" data-toggle="modal" data-target="#myModal">
+<img src="graf/c1.png" style="height:90%;" ></a>
+<p class="tooltipo8text"><span style="size:30px; color:#06C">@</span> contacto@ticsolutions.com.co</p>
+</div>
+<div class="tooltipo8" style="float:left; height:90%;">
+<img src="graf/c2.png" style="height:90%"/>
+<p class="tooltipo8text">+57 312 00 5046</p>
+</div>
+<div class="tooltipo8" style="float:left; height:90%;">
+<img src="graf/c3.png" style="height:90%"/>
+<p class="tooltipo8text">3204919688</p>
+</div>
+<div class="tooltipo8" style="float:left; height:90%;">
+<img src="graf/c4.png" style="height:90%"/>
+<p class="tooltipo8text"><span style="size:30px; color:#06C">@</span> contacto@ticsolutions.com.co</p>
+</div>
+<div class="tooltipo8" style="float:left; height:90%;">
+<a href="" data-toggle="modal" data-target="#myModal1">
+<img src="graf/c5.png" style="height:90%" /></a>
+<p class="tooltipo8text">location</p>
+</div>
+
+</div>
+    <!-- Przycisk uruchamiający modal 
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Uruchom okienko Pop-up
+    </button>-->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:100000; position:absolute;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Escríbenos</h4>
+          </div>
+          <div class="modal-body">
+            <form id="form1" name="form1" method="post" action="sub/send.php" onSubmit="return sprawdz()">
+              <p> E-mail<br>
+                <label>
+                  <input type="text" name="mail" id="mail" />
+                </label>
+              </p>
+              <p> Contenido<br />
+                <label>
+                  <textarea name="textm" id="textm" cols="45" rows="5" style="width:100%"></textarea>
+                </label>
+              </p>
+              <button type="submit" class="btn btn-default" >Enviar</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:100000; position:absolute;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Donde?</h4>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39280669246!2d-74.247896328117!3d4.648625943221135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1568432451692!5m2!1ses-419!2sco" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="modal-footer">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
